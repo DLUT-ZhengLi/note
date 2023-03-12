@@ -1,1 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T13:04:35.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="wEhpk8VgWs2aD-JeFqM8" version="20.8.23" type="github"><diagram name="第 1 页" id="BoYThL9qZdxGfDXjNJYI">ddHNEoIgEADgp+GO0N/drC6dPHRmZBNm0GWQRuvp0wEzxjqxfLuw/BCeN8PZCauuKMEQRuVA+JEwlrHNbhwmeQY58H2A2mkZixYo9Qsi0qgPLaFLCj2i8dqmWGHbQuUTE85hn5bd0aRdrahhBWUlzFpvWnoVb7Gli19A12runNGYacRcHKFTQmL/RbwgPHeIPkTNkIOZHm9+l7Du9Cf7OZiD1v9YMAbL3uMk+SFevAE=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-12T13:12:52.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="JgsGw8NNcAeZgX_JJNBW" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="BoYThL9qZdxGfDXjNJYI">
+    <mxGraphModel dx="489" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eA6l3aObdcysx2nHsOpe-1" value="KernelObj" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="240" height="114" as="geometry">
+            <mxRectangle x="130" y="130" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eA6l3aObdcysx2nHsOpe-2" value="- parent_: CodeObj&#xa;- func_name_: string&#xa;- KernelSignature: kern_signature_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eA6l3aObdcysx2nHsOpe-1">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="eA6l3aObdcysx2nHsOpe-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="eA6l3aObdcysx2nHsOpe-1">
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="eA6l3aObdcysx2nHsOpe-4" value="+ getSignatureString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eA6l3aObdcysx2nHsOpe-1">
+          <mxGeometry y="88" width="240" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
